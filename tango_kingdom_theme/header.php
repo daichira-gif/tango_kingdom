@@ -12,7 +12,7 @@
   <div class="header__inner">
     <div class="logo-wrap">
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/../assets/img/common/lgo_head.png' ); ?>" class="logo-img" alt="<?php esc_attr_e( '丹後王国 食のみやこ ロゴ', 'tango_kingdom' ); ?>">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/common/lgo_head.png' ); ?>" class="logo-img" alt="<?php esc_attr_e( '丹後王国 食のみやこ ロゴ', 'tango_kingdom' ); ?>">
         <span class="site-name">丹後王国 食のみやこ</span>
       </a>
     </div>

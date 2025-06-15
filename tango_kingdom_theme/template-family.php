@@ -5,7 +5,7 @@ Template Name: Family Page
 get_header();
 ?>
 <main>
-  <section class="hero" style="background:url('<?php echo esc_url( get_template_directory_uri() . '/../assets/img/hero/berry-picking.webp' ); ?>') center/cover no-repeat">
+  <section class="hero" style="background:url('<?php echo esc_url( get_template_directory_uri() . '/assets/img/hero/berry-picking.webp' ); ?>') center/cover no-repeat">
     <div class="hero-overlay">
       <h1 class="hero-title">家族で一日まるごと体験</h1>
       <p class="hero-subtitle">芝すべり・動物ふれあい・季節の収穫体験が勢ぞろい</p>
@@ -16,10 +16,10 @@ get_header();
     <div class="section__inner">
       <h2 class="section__title">人気体験</h2>
       <div class="cards">
-        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/../assets/img/family/grass-slide.jpg' ); ?>" alt="芝すべり"><h4>芝すべり</h4></div>
-        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/../assets/img/family/petting-zoo.webp' ); ?>" alt="動物ふれあい"><h4>動物ふれあい</h4></div>
-        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/../assets/img/hero/berry-picking.webp' ); ?>" alt="果実狩り"><h4>果実狩り</h4></div>
-        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/../assets/img/dog/zoo_tortoise.jpg' ); ?>" alt="リクガメ散歩"><h4>リクガメ散歩</h4></div>
+        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/family/grass-slide.jpg' ); ?>" alt="芝すべり"><h4>芝すべり</h4></div>
+        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/family/petting-zoo.webp' ); ?>" alt="動物ふれあい"><h4>動物ふれあい</h4></div>
+        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/hero/berry-picking.webp' ); ?>" alt="果実狩り"><h4>果実狩り</h4></div>
+        <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/dog/zoo_tortoise.jpg' ); ?>" alt="リクガメ散歩"><h4>リクガメ散歩</h4></div>
       </div>
     </div>
   </section>
