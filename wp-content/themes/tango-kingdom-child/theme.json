@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "extends": "twentytwentytwo",
+  "settings": {
+    "layout": { "contentSize": "1200px" },
+    "color": { "duotone": [] }
+  }
+}
