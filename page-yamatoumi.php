@@ -1,4 +1,7 @@
 <?php
+/**
+ * Template Name: Yama to Umi Page
+ */
 get_header();
 ?>
 

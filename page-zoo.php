@@ -1,4 +1,7 @@
 <?php
+/**
+ * Template Name: Zoo Page
+ */
 get_header();
 ?>
 

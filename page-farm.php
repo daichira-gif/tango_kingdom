@@ -1,4 +1,7 @@
 <?php
+/**
+ * Template Name: Farm Page
+ */
 get_header();
 ?>
 

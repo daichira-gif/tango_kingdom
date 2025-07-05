@@ -1,4 +1,7 @@
 <?php
+/**
+ * Template Name: Shiba Suberi Page
+ */
 get_header();
 ?>
 

@@ -1,4 +1,7 @@
 <?php
+/**
+ * Template Name: Ton's Kitchen Page
+ */
 get_header();
 ?>
 
