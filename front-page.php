@@ -96,7 +96,7 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/brewery.jpg" alt="クラフトビール工房">
     <h3>地ビール工房</h3>
     <p>ここでしか味わえない限定クラフトビール。</p>
-    <a href="<?php echo home_url('/gourmet/'); ?>" class="btn">詳しく見る</a>
+    <a href="https://tango-kingdom.com/business/products/tangokingdombeer" class="btn" target="_blank">詳しく見る</a>
   </div>
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/9e4d3f65c3e50c539400fe707946adf8-scaled.jpg" alt="トン’sキッチン BBQ">
