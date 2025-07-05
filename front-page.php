@@ -42,21 +42,21 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
   <h2>親子で楽しむ体験プログラム</h2>
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/Sea_Tango-Kingdom-Shoku-no-Miyako-04-1024x683.webp" alt="ブルーベリー狩り">
-    <h3>果実狩り</h3>
-    <p>季節のブルーベリーやイチゴを摘みたてで味わおう。</p>
-    <a href="<?php echo home_url('/experience/'); ?>" class="btn">詳しく見る</a>
+    <h3>収穫体験農園</h3>
+    <p>季節の野菜や果物を自分の手で収穫しよう。</p>
+    <a href="<?php echo home_url('/farm/'); ?>" class="btn">詳しく見る</a>
   </div>
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/COPO488_1.jpg" alt="芝すべり">
     <h3>芝すべり</h3>
     <p>全長70m！スリル満点のロングスライダー。</p>
-    <a href="<?php echo home_url('/experience/'); ?>" class="btn">詳しく見る</a>
+    <a href="<?php echo home_url('/shiba-suberi/'); ?>" class="btn">詳しく見る</a>
   </div>
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/zoo_sheep1.jpg" alt="小さな動物園">
     <h3>ふれあいミニ動物園</h3>
     <p>ヤギや羊、カメにエサやり体験。小さなお子様も安心。</p>
-    <a href="<?php echo home_url('/experience/'); ?>" class="btn">詳しく見る</a>
+    <a href="<?php echo home_url('/zoo/'); ?>" class="btn">詳しく見る</a>
   </div>
 </section>
 
@@ -90,7 +90,7 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/restaurant.png" alt="山と海 with 日本海牧場">
     <h3>山と海 with 日本海牧場</h3>
     <p>牧場直送ビーフと地場野菜で贅沢ランチ。</p>
-    <a href="<?php echo home_url('/gourmet/'); ?>" class="btn">詳しく見る</a>
+    <a href="<?php echo home_url('/yamatoumi/'); ?>" class="btn">詳しく見る</a>
   </div>
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/brewery.jpg" alt="クラフトビール工房">
@@ -102,7 +102,7 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/9e4d3f65c3e50c539400fe707946adf8-scaled.jpg" alt="トン’sキッチン BBQ">
     <h3>トン’sキッチン BBQ</h3>
     <p>ブランド豚と季節野菜を手ぶらでBBQ。</p>
-    <a href="<?php echo home_url('/gourmet/'); ?>" class="btn">詳しく見る</a>
+    <a href="<?php echo home_url('/tons-kitchen/'); ?>" class="btn">詳しく見る</a>
   </div>
 </section>
 

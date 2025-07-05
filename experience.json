@@ -1,0 +1,20 @@
+
+{
+  "experience": [
+    {
+      "name": "果実狩り",
+      "description": "季節のブルーベリーやイチゴを摘みたてで味わおう。",
+      "image": "assets/cards/Sea_Tango-Kingdom-Shoku-no-Miyako-04-1024x683.webp"
+    },
+    {
+      "name": "芝すべり",
+      "description": "全長70m！スリル満点のロングスライダー。",
+      "image": "assets/cards/COPO488_1.jpg"
+    },
+    {
+      "name": "ふれあいミニ動物園",
+      "description": "ヤギや羊、カメにエサやり体験。小さなお子様も安心。",
+      "image": "assets/cards/zoo_sheep1.jpg"
+    }
+  ]
+}
