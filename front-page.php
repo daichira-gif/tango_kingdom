@@ -78,7 +78,7 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/f4744700fc934204928856307294cf83-650x484.jpg" alt="犬同伴OKカフェ">
     <h3>犬同伴OKカフェ</h3>
-    <p>テラスでタコス＆ハンバーガーを愛犬と一緒に。</p>
+    <p>愛犬と一緒に食事が楽しめるカフェやレストランが複数あります。</p>
     <a href="<?php echo home_url('/dog-cafe/'); ?>" class="btn">詳しく見る</a>
   </div>
 </section>
