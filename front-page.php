@@ -67,7 +67,7 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/dogrun.jpg" alt="ドッグラン">
     <h3>西日本最大級ドッグラン</h3>
     <p>約2,300㎡の広さでリードを外して思いきりラン！</p>
-    <a href="<?php echo home_url('/pet/'); ?>" class="btn">詳しく見る</a>
+    <a href="<?php echo home_url('/dogrun/'); ?>" class="btn">詳しく見る</a>
   </div>
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/S__24444937_0.jpg" alt="小型犬エリア">
@@ -79,7 +79,7 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/f4744700fc934204928856307294cf83-650x484.jpg" alt="犬同伴OKカフェ">
     <h3>犬同伴OKカフェ</h3>
     <p>テラスでタコス＆ハンバーガーを愛犬と一緒に。</p>
-    <a href="<?php echo home_url('/pet/'); ?>" class="btn">詳しく見る</a>
+    <a href="<?php echo home_url('/dog-cafe/'); ?>" class="btn">詳しく見る</a>
   </div>
 </section>
 
