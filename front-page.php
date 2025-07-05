@@ -113,13 +113,13 @@ $images  = glob( $img_dir . '/*.{jpg,png}', GLOB_BRACE );
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/hotel.jpg" alt="ホテル丹後王国">
     <h3>ホテル丹後王国</h3>
     <p>レストラン＆温泉付き。家族旅行の拠点に。</p>
-    <a href="<?php echo home_url('/stay/'); ?>" class="btn">空室検索</a>
+    <a href="https://www.hotel-tango-kingdom.com/" class="btn" target="_blank">空室検索</a>
   </div>
   <div class="card">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cards/image-type-a.png" alt="愛犬同伴グランピング">
     <h3>愛犬同伴グランピング</h3>
     <p>ドームテントで贅沢ステイ。ドッグラン直結！</p>
-    <a href="<?php echo home_url('/stay/'); ?>" class="btn">空室検索</a>
+    <a href="https://www.hotel-tango-kingdom.com/theme188.html" class="btn" target="_blank">空室検索</a>
   </div>
 </section>
 
