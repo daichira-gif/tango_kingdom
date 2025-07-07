@@ -62,6 +62,9 @@ add_action( 'after_setup_theme', function(){
     register_nav_menus( [
         'header' => __( 'ヘッダーナビゲーション', 'tango-kingdom' ),
     ] );
+
+    // Allow block templates and template parts with fallback to PHP files.
+    add_theme_support( 'block-templates' );
 } );
 
 add_action('wp_enqueue_scripts', function(){
