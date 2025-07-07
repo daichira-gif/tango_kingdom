@@ -34,6 +34,7 @@ add_action( 'wp_enqueue_scripts', function() {
 // 2) 子テーマの style.css と JS を読み込み直し
 add_action( 'wp_enqueue_scripts', function() {
     // 子テーマ style.css
+    /*
     wp_enqueue_style(
         'tango-child-style',
         get_stylesheet_directory_uri() . '/style.css',
@@ -52,6 +53,7 @@ add_action( 'wp_enqueue_scripts', function() {
         filemtime( get_stylesheet_directory() . '/assets/js/slider.js' ),
         true
     );
+    */
 }, 10 );
 
 // Lightning のホームページビルダーを無効化
@@ -67,7 +69,4 @@ add_action( 'after_setup_theme', function(){
     add_theme_support( 'block-templates' );
 } );
 
-add_action('wp_enqueue_scripts', function(){
-    global $wp_styles;
-    error_log( print_r( $wp_styles->queue, true ) );
-}, 99);
+
