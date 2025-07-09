@@ -60,13 +60,15 @@ add_action( 'wp_enqueue_scripts', function() {
 add_filter( 'lightning_use_home_page_builder', '__return_false' );
 
 // ヘッダーメニューを登録
-add_action( 'after_setup_theme', function(){
-    register_nav_menus( [
-        'header' => __( 'ヘッダーナビゲーション', 'tango-kingdom' ),
-    ] );
+add_filter( 'render_block', 'tango_kingdom_child_rewrite_image_paths', 10, 2 );
 
-    // Allow block templates and template parts with fallback to PHP files.
-    add_theme_support( 'block-templates' );
-} );
+function tango_kingdom_child_rewrite_image_paths( $block_content, $block ) {
+    // front-page.html のブロックのみを対象とする
+    if ( is_front_page() && strpos( $block_content, 'assets/' ) !== false ) {
+        $theme_uri = get_stylesheet_directory_uri();
+        $block_content = preg_replace( '/src="(assets\/[^"]+)"/', 'src="' . esc_url( $theme_uri ) . '/$1"', $block_content );
+    }
+    return $block_content;
+}
 
 
